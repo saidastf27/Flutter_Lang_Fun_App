@@ -1,0 +1,18 @@
+# Root /FlutterProject/.gitignore
+
+# Backend (NestJS/Node)
+Backend/node_modules/
+Backend/dist/
+Backend/.env
+
+# Frontend (Flutter)
+Frontend/.dart_tool/
+Frontend/.packages
+Frontend/.pub-cache/
+Frontend/.pub/
+Frontend/build/
+Frontend/ios/.generated_files/
+
+# General
+.DS_Store
+*.log
