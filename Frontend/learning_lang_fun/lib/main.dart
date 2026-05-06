@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeController = Get.find<ThemeController>();
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Lang Fun',
       theme: AppThemes.light,
       darkTheme: AppThemes.dark,
